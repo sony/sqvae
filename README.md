@@ -14,7 +14,7 @@ Please cite [[1](#citation)] in your work when using this code in your experimen
 39th International Conference on Machine Learning.
 ```
 @INPROCEEDINGS{takida2022sq-vae,
-    author={Takida, Yuhta and Shibuya, Takashi and Liao, WeiHsiang and Lai, Chieh-Hsin and Ohmura, Junki and Uesaka, Toshimitsu and Murata, Naoki and Takahashi Shusuke and Kumakura, Toshiyuki and Mitsufuji, Yuki},
+    author={Takida, Yuhta and Shibuya, Takashi and Liao, WeiHsiang and Lai, Chieh-Hsin and Ohmura, Junki and Uesaka, Toshimitsu and Murata, Naoki and Takahashi, Shusuke and Kumakura, Toshiyuki and Mitsufuji, Yuki},
     title={{SQ-VAE}: Variational Bayes on Discrete Representation with Self-annealed Stochastic Quantization},
     booktitle={International Conference on Machine Learning},
     year={2022},
