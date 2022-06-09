@@ -81,5 +81,4 @@ if __name__ == "__main__":
         trainer.load(args.timestamp)
         print("Best models were loaded!!")
         res_test = trainer.test()
-        trainer.generate_reconstructions_paper(nrows=8, ncols=8)
 
