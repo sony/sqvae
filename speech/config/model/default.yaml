@@ -1,0 +1,15 @@
+model:
+    encoder:
+        param_var_q: "gaussian_4"
+        in_channels: ${preprocessing.n_mels}
+        channels: 768
+        n_embeddings: 512
+        embedding_dim: 64
+        jitter: 0.5
+    decoder:
+        in_channels: ${model.encoder.embedding_dim}
+        out_channels: ${preprocessing.n_mels}
+        conditioning_channels: 128
+        n_speakers: ${dataset.n_speakers}
+        speaker_embedding_dim: 64
+        fc_channels: 256
