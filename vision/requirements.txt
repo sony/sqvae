@@ -1,0 +1,7 @@
+yacs
+numpy==1.19.2
+scipy==1.7.0
+matplotlib
+torch==1.11.0
+torchvision==0.12.0
+Pillow==8.2.0

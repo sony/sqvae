@@ -1,0 +1,24 @@
+path_specific: "celeba_sqvae_gaussian_4/"
+  
+dataset:
+  name: 'CelebA'
+  shape: (3, 64, 64)
+  dim_x: 12288 # 3 * 64 * 64
+
+model:
+  name: "GaussianSQVAE"
+  log_param_q_init: 2.995732273553991
+  param_var_q: "gaussian_4"
+
+network:
+  name: "resnet"
+  num_rb: 6
+
+train:
+  bs: 32
+  lr: 0.001
+  epoch_max: 70
+
+quantization:
+  size_dict: 512
+  dim_dict: 64

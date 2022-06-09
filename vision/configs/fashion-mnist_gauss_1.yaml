@@ -1,0 +1,19 @@
+path_specific: "fashion-mnist_sqvae_gaussian_1/"
+  
+dataset:
+  name: 'FashionMNIST'
+  shape: (1, 28, 28)
+  dim_x: 784 # 1 * 28 * 28
+
+model:
+  name: "GaussianSQVAE"
+  log_param_q_init: 2.302585092994046 # log(10.0), larger/smaller vaulue is recommended for larger/smaller code dimension
+  param_var_q: "gaussian_1"
+
+network:
+  name: "resnet"
+  num_rb: 2
+
+quantization:
+  size_dict: 256
+  dim_dict: 64
