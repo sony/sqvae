@@ -1,6 +1,5 @@
 # SQ-VAE
 This repository contains the official PyTorch implementation of **"SQ-VAE: Variational Bayes on Discrete Representation with Self-annealed Stochastic Quantization"** presented in ICML2022 (*[arXiv 2205.07547](https://arxiv.org/abs/2205.07547)*).
-The use of this repository is RESTRICTED to non-commercial research.
 Please cite [[1](#citation)] in your work when using this code in your experiments.
 
 ![](imgs/method.png)
